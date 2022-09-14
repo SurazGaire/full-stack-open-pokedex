@@ -32,5 +32,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "full-stack-open-pokedox" #Must be unique in Heroku
           heroku_email: "surajgaire447@gmail.com"
-          healthcheck: "https://full-stack-open-pokedox.herokuapp.com//health"
+          healthcheck: "https://full-stack-open-pokedox.herokuapp.com/health"
           checkstring: "ok"

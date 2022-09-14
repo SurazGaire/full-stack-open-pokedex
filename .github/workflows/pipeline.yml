@@ -34,3 +34,4 @@ jobs:
           heroku_email: "surajgaire447@gmail.com"
           healthcheck: "https://full-stack-open-pokedox.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
